@@ -1,0 +1,59 @@
+.glowbutton
+{
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	background: #dedede;
+	background: linear-gradient(#efefef, #cdcdcd);
+	font-family: arial;
+	border-radius: 5px;
+	transition: all 0.5s;
+	text-align: center;
+	cursor: default;
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	transform: none;
+}
+
+.glowbutton:hover, .glowbutton:active, .glowbutton:focus
+{
+	box-shadow: 0px 0px 20px #1da7e2 inset, 0px 0px 15px #1da7e2;
+}
+
+.glowtext
+{
+	all: inherit;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: inherit;
+	margin-bottom: inherit;
+}
+
+.innerGlowText
+{
+	margin: 0px;
+	width: 20em;
+	color: black;
+	padding: 10px;
+	background: #dedede;
+	background: linear-gradient(#efefef, #cdcdcd);
+	font-family: arial;
+	border-radius: 5px;
+	transition: all 0.5s;
+	text-align: left;
+	display: inline-block;
+	outline: none;
+}
+
+.innerGlowText:hover, .innerGlowText:focus
+{
+	box-shadow: 0px 0px 10px #1da7e2 inset;
+}
+
+.imgX
+{
+	background: url("images/clearbutton.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
