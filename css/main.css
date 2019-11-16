@@ -1,0 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #55558a;
+    transition: all 0.5s;
+}
