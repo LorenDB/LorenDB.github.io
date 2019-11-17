@@ -47,18 +47,19 @@ header, footer {
     right: 0px;
     width: 100%;
     height: auto;
-    position: static;
     margin: 0px;
 }
 header {
     top: 0px;
     text-align: center;
+    position: static;
 }
 header * {
     padding: 0px;
 }
 footer {
-    bottom: 100%;
+    bottom: 0px;
+    position: absolute;
 }
 
 #underConstruction
