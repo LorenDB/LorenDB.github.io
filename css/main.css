@@ -48,18 +48,17 @@ header, footer {
     width: 100%;
     height: auto;
     margin: 0px;
+    position: static;
 }
 header {
     top: 0px;
     text-align: center;
-    position: static;
 }
 header * {
     padding: 0px;
 }
 footer {
     bottom: 0px;
-    position: static;
 }
 
 #underConstruction
@@ -108,4 +107,14 @@ footer {
 
 #updates {
     margin-left: 20px;
+}
+
+@media (max-width: 600)
+{
+    #siteCoverForMenu {
+        display: none;
+    }
+    #menu {
+        width: 100%;
+    }
 }
