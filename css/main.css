@@ -28,6 +28,13 @@ header, footer {
     color: white;
     font-size: 10pt;
 }
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
 
 #underConstruction
 {
