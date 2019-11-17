@@ -43,6 +43,9 @@ header {
     top: 0px;
     text-align: center;
 }
+header * {
+    padding: 0px;
+}
 footer {
     bottom: 100%;
 }
@@ -55,6 +58,7 @@ footer {
     width: 300px;
     text-align: center;
     font-size: 20px;
+    padding: 10px;
 }
 
 #menu
