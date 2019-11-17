@@ -59,7 +59,7 @@ header * {
 }
 footer {
     bottom: 0px;
-    position: absolute;
+    position: static;
 }
 
 #underConstruction
