@@ -4,8 +4,8 @@
     margin-left: 10px;
 }
 
-body {
-    margin: 0px;;
+html, body {
+    margin: 0px;
 }
 
 div, header, footer {
