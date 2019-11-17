@@ -25,3 +25,7 @@ header, footer {
     color: white;
     font-size: 10pt;
 }
+
+br {
+    padding: 5px;
+}
