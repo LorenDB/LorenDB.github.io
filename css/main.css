@@ -40,7 +40,7 @@ a:visited {
 }
 
 header, footer {
-    background: #59b188;
+    background: #2f89bd;
     color: white;
     font-size: 10pt;
     left: 0px;
@@ -103,4 +103,8 @@ footer {
     height: 100%;
     transition: all 0.2s;
     margin: 0px;
+}
+
+#updates {
+    margin-left: 20px;
 }
