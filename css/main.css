@@ -29,3 +29,13 @@ header, footer {
 br {
     padding: 5px;
 }
+
+#underConstruction
+{
+    color: white;
+    background: red;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
