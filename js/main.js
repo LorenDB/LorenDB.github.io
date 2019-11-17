@@ -1,6 +1,6 @@
 window.onload = function() {
-    document.getElementById("menu").style.left = "-365px";
-    document.getElementById("siteCoverForMenu").style.left = "-100%";
+    document.getElementById("menu").style.left = "-380px";
+    document.getElementById("siteCoverForMenu").style.left = "-120%";
     //alert("width: " + window.innerWidth + "\nheight: " + window.innerHeight);
 };
 function toggleMenu()
