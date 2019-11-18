@@ -29,7 +29,6 @@ h4 {
 
 a {
     color: #6b6b6b;
-    text-decoration: none;
     transition: all 0.5s;
 }
 a:hover {
@@ -49,6 +48,12 @@ header, footer {
     height: auto;
     margin: 0px;
     position: static;
+}
+header a, footer a, #menu a {
+    color: #525252;
+}
+header a:hover, footer a:hover, #menu a:hover {
+    color: #6ed6a6;
 }
 header {
     top: 0px;
