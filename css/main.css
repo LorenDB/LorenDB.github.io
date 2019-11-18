@@ -85,11 +85,17 @@ footer {
     box-shadow: 0px 0px 15px #000000;
     margin: 0px;
 }
-#menu>p
+#menu, #menu * {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu p {
+    font-size: 26pt;
+    padding-left: 10px;
+}    
+#menu li, #menu li a
 {
     margin: 5px;
-    font-size: 1.1em;
-    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18pt;
 }
 #siteCoverForMenu
 {
@@ -109,14 +115,16 @@ footer {
     margin-left: 20px;
 }
 
-@media (max-width: 800px)
+@media (max-width: 500px)
 {
     #siteCoverForMenu {
         display: none;
     }
     #menu {
         width: 100%;
-        font-size: 4em;
+    }
+    #menu p {
+        font-size: 26pt;
     }
     #menu li, #menu li a {
         font-size: 18pt;
