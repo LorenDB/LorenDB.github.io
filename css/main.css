@@ -109,7 +109,7 @@ footer {
     margin-left: 20px;
 }
 
-@media (max-width: 800)
+@media (max-width: 800px)
 {
     #siteCoverForMenu {
         display: none;
@@ -118,6 +118,6 @@ footer {
         width: 100%;
     }
     #underConstruction {
-        width: auto;
+        width: 95%;
     }
 }
