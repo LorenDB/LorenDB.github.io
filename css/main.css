@@ -28,12 +28,12 @@ h4 {
 }
 
 a {
-    color: #5c5e5d;
+    color: #6b6b6b;
     text-decoration: none;
     transition: all 0.5s;
 }
 a:hover {
-    color: #0c6d40;
+    color: #25a067;
 }
 a:visited {
     color: #d4cf89;
