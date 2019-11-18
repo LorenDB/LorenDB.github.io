@@ -117,4 +117,7 @@ footer {
     #menu {
         width: 100%;
     }
+    #underConstruction {
+        width: auto;
+    }
 }
