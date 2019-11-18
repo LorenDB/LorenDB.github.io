@@ -45,7 +45,7 @@ header, footer {
     font-size: 10pt;
     left: 0px;
     right: 0px;
-    width: 100%;
+    width: auto;
     height: auto;
     margin: 0px;
     position: static;
