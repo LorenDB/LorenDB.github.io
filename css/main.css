@@ -117,6 +117,9 @@ footer {
     #menu {
         width: 100%;
     }
+    #menu, #menu * {
+        font-size: 6em;
+    }
     #underConstruction {
         width: 95%;
     }
