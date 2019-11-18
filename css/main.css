@@ -90,11 +90,15 @@ footer {
 }
 #menu p {
     font-size: 26pt;
-    padding-left: 10px;
+    margin: 0px 0px 0px 10px;
 }    
-#menu li, #menu li a
+#menu ul
 {
-    margin: 5px;
+    margin: 0px 0px 0px 5px;
+    font-size: 18pt;
+}
+#menu ul * {
+    margin: 0px;
     font-size: 18pt;
 }
 #siteCoverForMenu
@@ -112,6 +116,10 @@ footer {
 }
 
 #updates {
+    margin-left: 20px;
+}
+
+.menuList {
     margin-left: 20px;
 }
 
