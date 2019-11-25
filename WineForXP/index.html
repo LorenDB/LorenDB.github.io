@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WineForXP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/GlowTheme.css" />
+    <script src="../js/main.js"></script>
+    <script src="../js/GlowTheme.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../images/menubutton.png" style="float: left;" onclick="toggleMenu();" />
+        <h1>WineForXP</h1>
+    </header>
+    <main>
+        <h1 id=underConstruction>This site is under construction.</h1><br><br>
+        <p>Welcome to WineForXP, a project to bring modern functionality to Windows XP!
+            Our objective is porting the Wine project (<a href="https://winehq.org/">winehq.org</a>)
+            to Windows XP, so that any modern Windows program can be run on Windows XP.</p>
+        <br><br>
+        <h2>Why WineForXP? Isn't Windows XP dead?</h2>
+        <p>Windows XP may be dead, yes, but there are still plenty of people who use it.
+            Some use it for nostalgic reasons. Others have old software. And a 
+            loyal few vow to never stop using XP for their daily driver.
+        </p>
+        <h2>How can this be done?</h2>
+        <p>
+            It may be possible to actually compile Wine binaries onto Windows, but it would
+            require a vast modification to the source code, if not a total rewrite. Instead,
+            I'm focusing on a slightly more Linux-based approach. I'm planning to base WineForXP
+            off of <a href=https://www.cygwin.com/">Cygwin</a> or <a href="http://www.mingw-w64.org">MinGW-w64</a>. These 
+            programs are designed to run Linux programs on Windows. For more information, please click on
+            one of the links.
+        </p>
+        <h2>But how does Windows know to run programs with WineForXP?</h2>
+        <p>
+            Well, the short answer is "Windows doesn't". The long answer: WineForXP will include
+            a program manager of sorts. Starting the program manager will give you a list of all
+            of the installed programs. From there, you can run whatever you want. I'm not sure yet
+            if I will write the program manager myself or if I will cop out and use/modify somebody else's
+            program, but it will probably be the latter.
+        </p>
+        <h2>When will WineForXP be available?</h2>
+        <p>
+            Hopefully by the end of 2019, but definitely by the end of 2020. It largely depends on how much of my
+            spare time I devote to WineForXP.
+        </p>
+    </main>
+    <footer>Copyright 2019 Loren Burkholder. All rights reserved.<br><br>
+        <a href="mailto:computersemiexpert@outlook.com">Contact me</a>
+    </footer>
+    <div id="siteCoverForMenu" onclick="toggleMenu()"></div>
+    <div id="menu">
+        <img src="../images/back.png" style="float: left;margin: 10px;" onclick="toggleMenu()" />
+        <p style="clear: both;">Pages:</p>
+        <ul>
+            <li><a href="../">Home</a></li>
+            <li>WineForXP</li>
+        </ul>
+    </div>
+</body>
+</html>
