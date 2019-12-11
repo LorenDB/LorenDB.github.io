@@ -33,10 +33,13 @@ function ValidBotBoot()
     var d = document.getElementById('BotBootInput').value;
     if (checkInput(d)) {
         document.getElementById('captchaForm').innerHTML += " Success!";
-        //sleep(1);
-        window.location.href = "mailto:" + p1 + p8 + p6 + p3 + 'sem' + p4 + p6 + 'e' + p2 + p7 + p5 + p1 + p8;
+        setTimeout(renav, 999);
     }
     else {
         document.getElementById('captchaForm').innerHTML += " Invalid answer. <a href='./contact.html'>Click here</a> to try again.";
     }
+}
+function renav()
+{
+    window.location.href = "mailto:" + p1 + p8 + p6 + p3 + 'sem' + p4 + p6 + 'e' + p2 + p7 + p5 + p1 + p8;
 }
