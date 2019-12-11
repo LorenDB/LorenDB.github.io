@@ -1,7 +1,7 @@
 window.onload = function() {
     document.getElementById("menu").style.left = "-120%";
     document.getElementById("siteCoverForMenu").style.left = "-120%";
-    //alert("width: " + window.innerWidth + "\nheight: " + window.innerHeight);
+    initGlowTheme();
 };
 function toggleMenu()
 {

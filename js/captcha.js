@@ -43,3 +43,10 @@ function renav()
 {
     window.location.href = "mailto:" + p1 + p8 + p6 + p3 + 'sem' + p4 + p6 + 'e' + p2 + p7 + p5 + p1 + p8;
 }
+
+window.onload = function() {
+    document.getElementById("menu").style.left = "-120%";
+    document.getElementById("siteCoverForMenu").style.left = "-120%";
+    DrawBotBoot();
+    initGlowTheme();
+};
