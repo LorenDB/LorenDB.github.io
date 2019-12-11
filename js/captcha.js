@@ -2,14 +2,18 @@ var a = Math.ceil(Math.random() * 20);
 var b = Math.ceil(Math.random() * 20);
 var opNum = Math.ceil(Math.random() * 4);
 var op;
+var add = ["+", "plus", "added to"];
+var sub = ["-", "minus", "when you subtract"];
+var times = ["*", "times", "multiplied by"];
+var divide = ["/", "over", "divided by"];
 function getVarSetup(x, y, z)
 {
-    if (z == 1) op = '+';
-    if (z == 2) op = '-';
-    if (z == 3) op = '*';
+    if (z == 1) op = add[Math.ceil(Math.random() * 3) - 1];
+    if (z == 2) op = sub[Math.ceil(Math.random() * 3) - 1];
+    if (z == 3) op = times[Math.ceil(Math.random() * 3) - 1];
     if (z == 4) {
         a = x * y;
-        op = '/';
+        op = divide[Math.ceil(Math.random() * 3) - 1];
     }
 }
 function checkInput(n)
