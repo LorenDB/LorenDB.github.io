@@ -3,12 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
+    <title>Contact me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/GlowTheme.css" />
     <script src="js/main.js"></script>
     <script src="js/GlowTheme.js"></script>
+    <script src="js/captcha.js"></script>
+    <script type="text/javascript">
+        window.onload = DrawBotBoot;
+    </script>
 </head>
 <body>
     <header>
@@ -16,21 +20,15 @@
         <h1>Home</h1>
     </header>
     <main>
-        <p>Welcome to my GitHub page! This is your home for updates on my projects.<br>
-        <p>Projects I'm working on:</p>
-        <ul>
-            <li><a href="./WineForXP/">WineForXP</a></li>
-        </ul>
-        <br>
-        <h2>Updates</h2>
-        <div id=updates>
-            <h3>WineForXP created!</h3>
-            <p>I'm happy to announce the creation of WineForXP on November 15, 2019!
-                WineForXP is a project to port the notable <a href='http://winehq.org'>Wine</a> project
-                to Windows XP. For more information, visit the 
-                <a href="./WineForXP/">WineForXP page</a>.
-            </p>
-        </div>
+        <p>
+            Please fill out the simple CAPTCHA below. I know that nobody likes CAPTCHAs, but 
+            neither do I want my email address listed publicly, so I've embedded this CAPTCHA
+            from <a href="https://sourcefirst.wordpress.com/2007/05/02/simple-javascript-captcha/">
+            this website</a>. It's a free, open source CAPTCHA for anyone to use. I modified
+            it a little for my purposes, so if you want a more complex version just request that in
+            your email you're trying to send.
+        </p>
+        <div id="captchaForm"></div>
     </main>
     <footer>Copyright © 2019 Loren Burkholder. All rights reserved.<br>This site uses the BSD 3-Clause license.<br>
         <a href="./contact.html">Contact me</a>
@@ -40,10 +38,10 @@
         <img src="images/back.png" style="float: left;margin: 10px;" onclick="toggleMenu()" />
         <p style="clear: both;">Pages</p>
         <ul class="menuList">
-            <li>Home</li>
-            <li><a href="misc.html">Miscellaneous</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./misc.html">Miscellaneous</a></li>
             <li><a href="./WineForXP/index.html">WineForXP</a></li>
-            <li><a href="./contact.html">Contact me</a></li>
+            <li>Contact me</li>
         </ul>
     </div>
 </body>
