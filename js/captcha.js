@@ -29,7 +29,7 @@ function DrawBotBoot()
 {
     getVarSetup(a, b, opNum);
     var form = document.getElementById("captchaForm");
-    form.innerHTML = "What is "+ a + ' ' + op + ' ' + b +"? Calculators are allowed. <input id='BotBootInput' type='text' maxlength='2' size='2'/>"
+    form.innerHTML = "What is "+ a + ' ' + op + ' ' + b +"? <input id='BotBootInput' type='text' maxlength='2' size='2'/>"
         + " <input id='Button1' type='button' value='Check' onclick='ValidBotBoot();'/>";
 }    
 function ValidBotBoot()
@@ -37,15 +37,20 @@ function ValidBotBoot()
     var d = document.getElementById('BotBootInput').value;
     if (checkInput(d)) {
         document.getElementById('captchaForm').innerHTML += " Success!";
-        setTimeout(renav, 999);
+        setTimeout(renav, 500);
     }
     else {
-        document.getElementById('captchaForm').innerHTML += " Invalid answer. <a href='./contact.html'>Click here</a> to try again.";
+        document.getElementById('captchaForm').innerHTML += " Invalid answer.";
+        setTimeout(refresh, 500);
     }
 }
 function renav()
 {
     window.location.href = "mailto:" + p1 + p8 + p6 + p3 + 'sem' + p4 + p6 + 'e' + p2 + p7 + p5 + p1 + p8;
+}
+function refresh()
+{
+    document.location.reload();
 }
 
 window.onload = function() {
