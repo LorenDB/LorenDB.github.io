@@ -20,7 +20,7 @@ function checkInput(n)
     if (opNum == 4) if (n == a / b) return true;
     return false;
 }
-var p1 = "c"; var p2 = "rt@out"; var p3 = "uter"; var p4 = 'iex'; var p5 = "k.c"; var p6 = "p"; var p7 = 'loo'; var p8 = 'om';
+var p1 = "c"; var p2 = "rt@out"; var p3 = "uter"; var p4 = 'iex'; var p5 = "k."; var p6 = "p"; var p7 = 'loo'; var p8 = 'om';
 function DrawBotBoot()
 {
     getVarSetup(a, b, opNum);
@@ -34,7 +34,7 @@ function ValidBotBoot()
     if (checkInput(d)) {
         document.getElementById('captchaForm').innerHTML += " Success!";
         //sleep(1);
-        window.location.href = "mailto:" + p1 + p8 + p6 + p3 + 'sem' + p4 + p6 + 'e' + p2 + p7 + p5 + p8;
+        window.location.href = "mailto:" + p1 + p8 + p6 + p3 + 'sem' + p4 + p6 + 'e' + p2 + p7 + p5 + p1 + p8;
     }
     else {
         document.getElementById('captchaForm').innerHTML += " Invalid answer. <a href='./contact.html'>Click here</a> to try again.";
