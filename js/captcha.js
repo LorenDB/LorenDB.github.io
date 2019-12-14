@@ -9,7 +9,14 @@ var divide = ["/", "over", "divided by"];
 function getVarSetup(x, y, z)
 {
     if (z == 1) op = add[Math.ceil(Math.random() * 3) - 1];
-    if (z == 2) op = sub[Math.ceil(Math.random() * 3) - 1];
+    if (z == 2) {
+        if (a < b) {
+            var temp = a;
+            a = b;
+            b = temp;
+        }
+        op = sub[Math.ceil(Math.random() * 3) - 1];
+    }
     if (z == 3) op = times[Math.ceil(Math.random() * 3) - 1];
     if (z == 4) {
         a = x * y;
@@ -24,7 +31,7 @@ function checkInput(n)
     if (opNum == 4) if (n == a / b) return true;
     return false;
 }
-var p1 = "c"; var p2 = "rt@out"; var p3 = "uter"; var p4 = 'iex'; var p5 = "k."; var p6 = "p"; var p7 = 'loo'; var p8 = 'om';
+var p1 = "c"; var p2 = "rt@g"; var p3 = "uter"; var p4 = 'iex'; var p5 = "l."; var p6 = "p"; var p7 = 'mai'; var p8 = 'om';
 function DrawBotBoot()
 {
     getVarSetup(a, b, opNum);
