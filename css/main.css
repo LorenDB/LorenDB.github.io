@@ -62,7 +62,6 @@ header {
     height: 100%;
     display: table;
     z-index: 1;
-    min-width: 50px;
 }
 header * {
     padding: 0px;
