@@ -1,7 +1,7 @@
 window.onload = function() {
     document.getElementById("menu").style.left = "-120%";
     document.getElementById("siteCoverForMenu").style.left = "-120%";
-    document.getElementById("date").innerHTML = getFullYear();
+    document.getElementById("date").innerHTML = Date.getFullYear();
     initGlowTheme();
 };
 function toggleMenu()
