@@ -4,7 +4,10 @@
 <head>
     <title>Test integration</title>
     <script>
-            function f() { document.getElementById("myDiv").style.background = "rgb(" + Math.floor(Math.random * 255) + ", " + Math.floor(Math.random * 255) + ", " + Math.floor(Math.random * 255) + ")"; }
+            function f() { document.getElementById("myDiv").style.background = "rgb(" + Math.floor(Math.random() * 255)
+               + ", " + Math.floor(Math.random() * 255)
+               + ", " + Math.floor(Math.random() * 255)
+               + ")"; }
     </script>
 </head>
 <body><div id="myDiv"><button onclick="f()">Click me</button><p>Test a b c d e f g.....</p>
