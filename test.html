@@ -3,8 +3,8 @@
 <html>
 <head>
     <title>Test integration</title>
-    <script>window.onload = function() { var theDiv = document.getElementById("myDiv"); };
-            function f() { theDiv.style.background = "rgb(100, 23, 48)"; }
+    <script>
+            function f() { document.getElementById("myDiv").style.background = "rgb(100, 23, 48)"; }
     </script>
 </head>
 <body><div id="myDiv"><button onclick="f()">Click me</button><p>Test a b c d e f g.....</p>
